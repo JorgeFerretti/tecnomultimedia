@@ -1,5 +1,8 @@
-float alto, ancho;
-float h, w, wb, hb;
+
+
+//link de youtube:  https://youtu.be/uieEiOY8O1s
+
+float h, w, wb;
 int ang;
 int estado=0;
 PFont fuente;
@@ -11,8 +14,7 @@ void setup() {
   fuente=loadFont("Arial-Black-48.vlw");
 
   size(500, 500);
-  ancho=86.6;
-  alto=100;
+
 }
 
 void draw() {
@@ -28,9 +30,9 @@ void draw() {
       stroke(255);
       noFill();
       strokeWeight(5);
-      w=(ancho*i)-700;
-      h=((alto*j)-23*j)-800;
-      wb=((ancho*i)-ancho/2)-700;
+      w=(86.6*i)-700;
+      h=((100*j)-23*j)-800;
+      wb=((86.6*i)-86.6/2)-700;
 
       //----------------------FILAS PARES-------------------------------
 
