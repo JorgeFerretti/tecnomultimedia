@@ -1,5 +1,7 @@
 
 
+//link explicación: https://youtu.be/urC0PVzfXtc
+
 
 float s, m;
 String estado;
